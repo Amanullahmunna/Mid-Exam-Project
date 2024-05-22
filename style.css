@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+header {
+  background: #fff0e3;
+}
+
+.navigation-1 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.navigation-2 {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding: 10px 20px;
+  background-color: white;
+}
+.btn {
+  border-right: 2px solid rgb(172, 170, 170);
+}
+.btn-2 {
+  display: inline-block;
+  background: #d99655;
+  color: white;
+}
+.hero-text {
+  text-align: center;
+  padding: 40px 0;
+}
+.hero-img {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.hero {
+  padding: 40px 0;
+}
+.men-women-img {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.cart {
+  height: 20px;
+  width: 20px;
+}
+.price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 50px;
+}
+.offer-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0px;
+}
+.offer-img {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.offer-img img {
+  max-width: 250px;
+}
+.offer {
+  background-color: black;
+  color: white;
+}
+.brands {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 50px;
+}
+.purpose-img {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.purpose-img1 {
+  width: 370px;
+  height: 409px;
+}
+.purpose {
+  background-color: #fff0e3;
+}
+.insta,
+.insta-img {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0px;
+  gap: 10px;
+}
+.insta-img img {
+  max-width: 300px;
+}
+.footer-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0;
+}
+.footer-2 {
+  display: flex;
+  justify-content: space-between;
+  max-width: 700px;
+  gap: 30px;
+  padding: 40px 0;
+  border-bottom: 2px solid gainsboro;
+}
+.footer-3 {
+  display: flex;
+  justify-content: space-between;
+  max-width: 700px;
+  gap: 30px;
+  padding: 40px 0;
+}
+.footer-4 {
+  text-align: center;
+  padding: 20px 0;
+  border-top: 2px solid gainsboro;
+}
+.footer-1 img {
+  background: #fff0e3;
+}
+footer {
+  background-color: black;
+  color: #fff0e3;
+}
+a:hover {
+  background-color: gray;
+}
+@media (max-width: 700px) {
+  .hero-img,
+  .men-women-img,
+  .hero-2,
+  .price,
+  .offer-img,
+  .offer-text,
+  .brands,
+  .purpose-img,
+  .insta,
+  .insta-img {
+    display: block;
+  }
+  .navigation-1,
+  .navigation-2 {
+    display: none;
+  }
+}
